@@ -14,13 +14,13 @@
 
 <body>
 
-    <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+    <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom" >
         <nav id="page-nav" class="uk-navbar-container uk-flex-column uk-flex-top" uk-navbar="mode: click" data-uk-navbar
             data-uk-toggle="media: @s; cls: uk-flex-row uk-flex-top; mode: media">
         </nav>
         <!-- End nav -->
         <!-- page contents -->
-        <div class="uk-section uk-section-small uk-section-default ">
+        <div class="uk-section uk-section-small uk-section-default " uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
             <div class="uk-container">
                 <div class=" uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
                     uk-slideshow="autoplay:true; ratio: 8:2">
@@ -48,7 +48,7 @@
     </div>
     <!--/page contents -->
     <!-- page contents -->
-    <div class="uk-section uk-section-small uk-section-default">
+    <div class="uk-section uk-section-small uk-section-default" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
         <div class="uk-container">
             <h2>CREATIVIDAD</h2>
             <p>Section paragraph</p>
@@ -56,7 +56,7 @@
     </div>
     <!--/page contents -->
     <!-- page contents -->
-    <div class="uk-section uk-section-small uk-section-default">
+    <div class="uk-section uk-section-small uk-section-default" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
         <div class="uk-container">
             <h2>TALLER1</h2>
             <p>Section paragraph</p>
@@ -64,7 +64,7 @@
     </div>
     <!--/page contents -->
     <!-- page contents -->
-    <div class="uk-section uk-section-small uk-section-default">
+    <div class="uk-section uk-section-small uk-section-default" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
         <div class="uk-container">
             <h2>CREATIVIDAD LENGUAJE INCLUSIVO</h2>
             <p>Section paragraph</p>
@@ -72,7 +72,7 @@
     </div>
     <!--/page contents -->
     <!-- page contents -->
-    <div class="uk-section uk-section-small uk-section-default">
+    <div class="uk-section uk-section-small uk-section-default" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
         <div class="uk-container">
             <h2>TALLER2</h2>
             <p>Section paragraph</p>
@@ -123,16 +123,59 @@
     <div class="uk-section uk-section-small uk-section-default">
         <div class="uk-container">
             <h2>Quieres organizas un taller?</h2>
-            <p>Contacto</p>
+            <p>Dale a contacto y explícanos tu idea, queremos ayudarte</p>
+            <div uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                <a class="uk-button uk-button-primary uk-default" style="background-color:#4EAEB9" href="#modal-sections" uk-toggle>Contacto</a>
+            </div>    
+            <div id="modal-sections" uk-modal>
+                <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <div class="uk-modal-header">
+                        <h2 class="uk-modal-title">Organizar un taller</h2>
+                    </div>
+                    <div class="uk-modal-body">
+                        <p>Envía un mail explicando el tipo de taller que te gustaría organizar</p>
+                        <form id="contact-form" method="post" action="#" role="form">
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Tu nombre" name="nombre" required >
+                            </div>
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Tu email" name="email" required>
+                            </div>
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Asunto" name="asunto" required>
+                            </div>
+                            <div class="uk-margin">
+                                <textarea class="uk-textarea" rows="5" placeholder="Mensaje" name="mensaje" required></textarea>
+                            </div>
+                            <div class="uk-form-row">
+                                <!--<a class="uk-width-1-3 uk-button uk-button-primary uk-button-large uk-align-center" style="background-color:#4EAEB9; " href="#">Enviar</a>-->
+                                <!--<button type="submit" class="uk-button uk-button-primary uk-button-large uk-align-center" style="background-color:#4EAEB9">Enviar</button>-->
+                            </div>
+                       
+                    
+                    </div>
+                    <div class="uk-modal-footer uk-text-right">
+                        <button class="uk-button uk-button-default uk-modal-close" type="button">Cancelar</button>
+                        <button class="uk-button uk-button-primary" type="submit">Enviar</button>
+                    </div>
+                </div>
+            </div> 
+                    </form>
+
+
         </div>
     </div>
     <!--/page contents -->
     <!-- page contents -->
-    <div class="uk-section uk-section-small uk-section-default">
+    <div class="uk-section uk-section-small uk-section-default" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">
         <div class="uk-container">
+            
             <h2>Sobre Mot</h2>
-            <p>Section paragraph</p>
+            <p>Mot nace en 2020 con la idea de ayudar a las personas a mejorar su creatividad y sus habilidades en diferentes ámbitos como la escritura</p>
             <a href="#" uk-totop uk-scroll></a>
+
+            
         </div>
     </div>
     <!--/page contents -->
