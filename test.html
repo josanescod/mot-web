@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+
+<head>
+    <title>mot web</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <!--<script src="js/loadessentials.js"></script>-->
+</head>
+
+<body>
+
+    <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom" >
+         <nav id="page-nav" class="uk-navbar-container uk-visible@m" uk-navbar="mode: click">                    
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="#">HOME</a></li>
+                    <li>
+                        <a href="#">TALLERES</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">"
+                                  <li class="uk-active"><a href="html/taller1.html">Taller 1: escritura creativa</a></li>
+                                  <li><a href="html/taller2.html">Taller 2: lenguaje inclusivo</a></li>
+                                  <li><a href="html/otaller.html">Taller 3: organiza un taller</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="html/acercade.html">SOBRE MOT</a></li>
+                    <li><a href="html/contacto.html">CONTACTO</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- boton oculto en tabletas o superior-->
+        <button type="button" class="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #menu_movil" data-uk-navbar-toggle-icon></button>      
+        <div id="menu_movil" uk-offcanvas="overlay: true">
+            <div class="uk-offcanvas-bar uk-hidden@m">
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                <ul class="uk-nav uk-nav-default" uk-nav>                 
+                    <li class="uk-nav-header uk-active"><a href="#">HOME</a></li>
+                    <li class="uk-nav-header uk-parent">
+                        <a href="#" style="color:white">Tallers</a>
+                        <ul class="uk-nav-sub">
+                          <li><a href="html/taller1.html" style="color:white">Taller 1 - escritura creativa</a></li>
+                          <li><a href="html/taller2.html" style="color:white">Taller 2 - lenguaje inclusivo</a></li>
+                          <li><a href="html/otaller.html" style="color:white">Taller 3 - organiza un taller</a></li>
+                        </ul>
+                      </li>
+                    <li class="uk-nav-header" ><a href="html/acercade.html" style="color:white">SOBRE MOT</a></li>
+                    <li class="uk-nav-header"><a href="html/contacto.html" style="color:white">CONTACTO</a></li>                   
+                </ul>        
+            </div>
+        </div>
+
+
+
+        <!-- page contents -->
+        <div class="uk-section uk-section-small uk-section-default " uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
+            <div class="uk-container">
+                <div class=" uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+                    uk-slideshow="autoplay:true; ratio: 8:2">
+                    <ul class="uk-slideshow-items">
+                        <li>
+                            <img class="uk-responsive-height uk-responsive-width uk-align-center"
+                                src="assets/img/bannermot.png" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img class="uk-responsive-height uk-responsive-width uk-align-center"
+                                src="assets/img/bannermot2.png" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img class="uk-responsive-height uk-responsive-width uk-align-center"
+                                src="assets/img/bannermot3.png" alt="" uk-cover>
+                        </li>
+                    </ul>
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                        uk-slideshow-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                        uk-slideshow-item="next"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/page contents -->
+    <!-- page contents -->
+    <div class="uk-section uk-section-small uk-section-default" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+        <div class="uk-container">
+            <h2>CREATIVIDAD</h2>
+            <p>Section paragraph</p>
+        </div>
+    </div>
+    <!--/page contents -->
+    <!-- page contents -->
+    <div class="uk-section uk-section-small uk-section-default" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+        <div class="uk-container">
+            <h2>TALLER1</h2>
+            <p>Section paragraph</p>
+        </div>
+    </div>
+    <!--/page contents -->
+    <!-- page contents -->
+    <div class="uk-section uk-section-small uk-section-default" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+        <div class="uk-container">
+            <h2>CREATIVIDAD LENGUAJE INCLUSIVO</h2>
+            <p>Section paragraph</p>
+        </div>
+    </div>
+    <!--/page contents -->
+    <!-- page contents -->
+    <div class="uk-section uk-section-small uk-section-default" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+        <div class="uk-container">
+            <h2>TALLER2</h2>
+            <p>Section paragraph</p>
+        </div>
+    </div>
+    <!--/page contents -->
+    <!-- page contents -->
+    <div class="uk-section uk-section-small uk-section-default">
+        <div class="uk-container">
+            <h2>Los participantes dicen...</h2>
+            <p>Opiniones</p>
+            <div class="uk-child-width-1-3@m" >
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <h3 class="uk-card-title">Maria B.</h3>
+                        <p>El taller de creatividad ha estado genial. Grácias a la profesora he podido potenciar mi
+                            creatividad y adquirir nuevas
+                            habilidades que estoy poniendo en práctica en mi nueva novela. Ha sido fantástico!
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body" >
+                        <h3 class="uk-card-title">Javier G.</h3>
+                        <p>El taller de lenguaje inclusivo me ha parecido muy interesante a la par que gratificante.
+                            Aconsejo a todas las empresas que promuevan en sus plantillas la participación en este tipo
+                            de talleres, para mejorar el entorno de trabajo
+                            y promover la inclusión de todo el personal</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <h3 class="uk-card-title">Elena S.</h3>
+                        <p>Como blogger y community manager, llevaba tiempo buscando un webinar donde trataran temas
+                            relacionados con la creatividad literaria.
+                            Una compañera de trabajo me recomendó este taller, y ha sido todo un acierto! los temas se
+                            tratan con mucha rigurosidad y en profundidad.
+                            100% recomendable.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/page contents -->
+    <!-- page contents -->
+    <div class="uk-section uk-section-small uk-section-default">
+        <div class="uk-container">
+            <h2>Quieres organizas un taller?</h2>
+            <p>Dale a contacto y explícanos tu idea, queremos ayudarte</p>
+            <div >
+                <a class="uk-button uk-button-primary uk-default" style="background-color:#4EAEB9" href="#modal-sections" uk-toggle>Contacto</a>
+            </div>    
+            <div id="modal-sections" uk-modal>
+                <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <div class="uk-modal-header">
+                        <h2 class="uk-modal-title">Organizar un taller</h2>
+                    </div>
+                    <div class="uk-modal-body">
+                        <p>Envía un mail explicando el tipo de taller que te gustaría organizar</p>
+                        <form id="contact-form" method="post" action="#" role="form">
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Tu nombre" name="nombre" required >
+                            </div>
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Tu email" name="email" required>
+                            </div>
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Asunto" name="asunto" required>
+                            </div>
+                            <div class="uk-margin">
+                                <textarea class="uk-textarea" rows="5" placeholder="Mensaje" name="mensaje" required></textarea>
+                            </div>
+                            <div class="uk-form-row">
+                                <!--<a class="uk-width-1-3 uk-button uk-button-primary uk-button-large uk-align-center" style="background-color:#4EAEB9; " href="#">Enviar</a>-->
+                                <!--<button type="submit" class="uk-button uk-button-primary uk-button-large uk-align-center" style="background-color:#4EAEB9">Enviar</button>-->
+                            </div>
+                       
+                    
+                    </div>
+                    <div class="uk-modal-footer uk-text-right">
+                        <button class="uk-button uk-button-default uk-modal-close" type="button">Cancelar</button>
+                        <button class="uk-button uk-button-primary" type="submit">Enviar</button>
+                    </div>
+                </div>
+            </div> 
+                    </form>
+
+
+        </div>
+    </div>
+    <!--/page contents -->
+    <!-- page contents -->
+    <div class="uk-section uk-section-small uk-section-default">
+        <div class="uk-container">
+            
+            <h2>Sobre Mot</h2>
+            <p>Mot nace en 2020 con la idea de ayudar a las personas a mejorar su creatividad y sus habilidades en diferentes ámbitos como la escritura</p>
+            <a href="#" uk-totop uk-scroll></a>
+
+            
+        </div>
+    </div>
+    <!--/page contents -->
+    <footer id="page-footer" class="uk-margin-top" uk-sticky>
+    </footer>
+    </div>
+</body>
+</html>
