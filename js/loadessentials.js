@@ -47,7 +47,7 @@ function loadNavIndex() {
         <div id="menu_movil" uk-offcanvas="overlay: true">
             <div class="uk-offcanvas-bar uk-hidden@m">
                 <button class="uk-offcanvas-close" type="button" uk-close></button>
-                <ul class="uk-nav uk-nav-default" uk-nav>                 
+                <ul class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>                 
                     <li class="uk-nav-header uk-active"><a href="index.html" style="color:white">HOME</a></li>
                     <li class="uk-nav-header uk-parent">
                         <a href="#" style="color:white">Tallers</a>
@@ -95,7 +95,7 @@ function loadNav() {
         <div id="menu_movil" uk-offcanvas="overlay: true">
             <div class="uk-offcanvas-bar uk-hidden@m">
                 <button class="uk-offcanvas-close" type="button" uk-close></button>
-                <ul class="uk-nav uk-nav-default" uk-nav>                 
+                <ul class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>                 
                     <li class="uk-nav-header uk-active"><a href="../index.html" style="color:white">HOME</a></li>
                     <li class="uk-nav-header uk-parent">
                         <a href="#" style="color:white">Tallers</a>
