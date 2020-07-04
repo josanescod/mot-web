@@ -47,8 +47,10 @@ function loadNavIndex() {
         <div id="menu_movil" uk-offcanvas="overlay: true">
             <div class="uk-offcanvas-bar uk-hidden@m">
                 <button class="uk-offcanvas-close" type="button" uk-close></button>
-                <ul class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>                 
+                <ul class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav> 
+                <br>                
                     <li class="uk-nav-header uk-active"><a href="index.html" style="color:white">HOME</a></li>
+                    <hr class="uk-margin-small">
                     <li class="uk-nav-header uk-parent">
                         <a href="#" style="color:white">Tallers</a>
                         <ul class="uk-nav-sub">
@@ -57,11 +59,15 @@ function loadNavIndex() {
                           <li><a href="html/otaller.html" style="color:white">Taller 3 - organiza un taller</a></li>
                         </ul>
                       </li>
+                      <hr class="uk-margin-small">
                     <li class="uk-nav-header" ><a href="html/acercade.html" style="color:white">SOBRE MOT</a></li>
+                    <hr class="uk-margin-small">
                     <li class="uk-nav-header"><a href="html/contacto.html" style="color:white">CONTACTO</a></li>
-                    <li class="uk-nav-header"><a href="html/login.html" style="color:white">LOGIN</a></li>                   
+                    <hr class="uk-margin-small">
+                    <li class="uk-nav-header"><a href="html/login.html" style="color:white">LOGIN</a></li>
+                    <hr class="uk-margin-small">                   
                 </ul>  
-                <hr class="uk-margin-large">      
+                      
             </div>
         </div>
     `;
@@ -95,21 +101,27 @@ function loadNav() {
         <div id="menu_movil" uk-offcanvas="overlay: true">
             <div class="uk-offcanvas-bar uk-hidden@m">
                 <button class="uk-offcanvas-close" type="button" uk-close></button>
-                <ul class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>                 
-                    <li class="uk-nav-header uk-active"><a href="../index.html" style="color:white">HOME</a></li>
+                <ul class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav> 
+                <br>               
+                    <li class="uk-nav-header uk-active"><a href="../index.html" style="color:white;">HOME</a></li>
+                    <hr class="uk-margin-small">
                     <li class="uk-nav-header uk-parent">
-                        <a href="#" style="color:white">Tallers</a>
+                        <a href="#" style="color:white;">Tallers</a>
                         <ul class="uk-nav-sub">
                           <li><a href="taller1.html" style="color:white">Taller 1 - escritura creativa</a></li>
                           <li><a href="taller2.html" style="color:white">Taller 2 - lenguaje inclusivo</a></li>
                           <li><a href="otaller.html" style="color:white">Taller 3 - organiza un taller</a></li>
                         </ul>
                       </li>
-                    <li class="uk-nav-header" ><a href="acercade.html" style="color:white">SOBRE MOT</a></li>
-                    <li class="uk-nav-header"><a href="contacto.html" style="color:white">CONTACTO</a></li>
-                    <li class="uk-nav-header"><a href="login.html" style="color:white">LOGIN</a></li>                   
+                      <hr class="uk-margin-small">
+                    <li class="uk-nav-header" ><a href="acercade.html" style="color:white; ">SOBRE MOT</a></li>
+                    <hr class="uk-margin-small">
+                    <li class="uk-nav-header"><a href="contacto.html" style="color:white; ">CONTACTO</a></li>
+                    <hr class="uk-margin-small">
+                    <li class="uk-nav-header"><a href="login.html" style="color:white;">LOGIN</a></li>
+                    <hr class="uk-margin-small">                   
                 </ul>  
-                <hr class="uk-margin-large">      
+                   
             </div>
         </div>
     `;
