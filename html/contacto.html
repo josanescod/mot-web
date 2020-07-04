@@ -22,7 +22,37 @@
         </div>
         <!-- End nav -->
         <!-- page contents -->
-        <div class="uk-section uk-section-small uk-section-default ">
+        <div class="uk-section uk-section-small uk-section-default uk-visible@m ">
+            <div class="uk-container uk-width-1-2">
+                <img class="uk-responsive-height uk-responsive-width uk-align-center" style="width:95%"
+                    src="../assets/img/bannermot.png" alt="">
+                <h2>Contáctanos</h2>
+                <p>Mándanos un mensaje a través de nuestro formulario y nos pondremos en contacto contigo lo antes
+                    posible.</p>
+                <form id="contact-form" method="post" action="#" role="form">
+                    <div class="uk-margin">
+                        <input class="uk-input" type="text" placeholder="Tu nombre" name="nombre" required >
+                    </div>
+                    <div class="uk-margin">
+                        <input class="uk-input" type="text" placeholder="Tu email" name="email" required>
+                    </div>
+                    <div class="uk-margin">
+                        <input class="uk-input" type="text" placeholder="Asunto" name="asunto" required>
+                    </div>
+                    <div class="uk-margin">
+                        <textarea class="uk-textarea" rows="5" placeholder="Mensaje" name="mensaje" required></textarea>
+                    </div>
+                    <div class="uk-form-row">
+                        <!--<a class="uk-width-1-3 uk-button uk-button-primary uk-button-large uk-align-center" style="background-color:#4EAEB9; " href="#">Enviar</a>-->
+                        <button type="submit" class="uk-button uk-button-primary uk-button-large uk-align-center" style="background-color:#4EAEB9">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- mobile -->
+        <!-- page contents -->
+        <div class="uk-section uk-section-small uk-section-default uk-hidden@m">
             <div class="uk-container uk-width-1-1">
                 <img class="uk-responsive-height uk-responsive-width uk-align-center" style="width:95%"
                     src="../assets/img/bannermot.png" alt="">

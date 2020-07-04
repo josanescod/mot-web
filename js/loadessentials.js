@@ -38,6 +38,7 @@ function loadNavIndex() {
                     </li>
                     <li><a href="html/acercade.html">SOBRE MOT</a></li>
                     <li><a href="html/contacto.html">CONTACTO</a></li>
+                    <li><a href="html/login.html">LOGIN</a></li>
                 </ul>
             </div>
         </nav>
@@ -57,8 +58,10 @@ function loadNavIndex() {
                         </ul>
                       </li>
                     <li class="uk-nav-header" ><a href="html/acercade.html" style="color:white">SOBRE MOT</a></li>
-                    <li class="uk-nav-header"><a href="html/contacto.html" style="color:white">CONTACTO</a></li>                   
-                </ul>        
+                    <li class="uk-nav-header"><a href="html/contacto.html" style="color:white">CONTACTO</a></li>
+                    <li class="uk-nav-header"><a href="html/login.html" style="color:white">LOGIN</a></li>                   
+                </ul>  
+                <hr class="uk-margin-large">      
             </div>
         </div>
     `;
@@ -83,6 +86,7 @@ function loadNav() {
                     </li>
                     <li><a href="acercade.html">SOBRE MOT</a></li>
                     <li><a href="contacto.html">CONTACTO</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
                 </ul>
             </div>
         </nav>
@@ -102,8 +106,10 @@ function loadNav() {
                         </ul>
                       </li>
                     <li class="uk-nav-header" ><a href="acercade.html" style="color:white">SOBRE MOT</a></li>
-                    <li class="uk-nav-header"><a href="contacto.html" style="color:white">CONTACTO</a></li>                   
-                </ul>        
+                    <li class="uk-nav-header"><a href="contacto.html" style="color:white">CONTACTO</a></li>
+                    <li class="uk-nav-header"><a href="login.html" style="color:white">LOGIN</a></li>                   
+                </ul>  
+                <hr class="uk-margin-large">      
             </div>
         </div>
     `;
